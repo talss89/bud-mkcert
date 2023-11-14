@@ -1,6 +1,6 @@
 {
   "name": "bud-mkcert",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Magic HTTPS certificates for the Bud.js HMR server",
   "main": "index.js",
   "repository": "https://github.com/talss89/bud-mkcert",
