@@ -1,0 +1,49 @@
+{
+  "name": "bud-mkcert",
+  "version": "0.0.1",
+  "description": "Magic HTTPS certificates for the Bud.js HMR server",
+  "main": "index.js",
+  "repository": "https://github.com/talss89/bud-mkcert",
+  "contributors": [
+    {
+      "email": "tom.lawton@cndu.it",
+      "name": "Tom Lawton",
+      "url": "https://github.com/talss89"
+    }
+  ],
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./lib/index.js",
+    "./types": "./lib/types.js"
+  },
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./lib/index.js"
+      ],
+      "types": [
+        "./lib/types.js"
+      ]
+    }
+  },
+  "types": "./lib/index.d.ts",
+  "module": "./lib/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "devDependencies": {
+    "@roots/bud": "^6.16.1",
+    "@roots/bud-framework": "^6.16.1",
+    "@roots/bud-postcss": "^6.16.1",
+    "@types/node": "18.17.9",
+    "tslib": "2.6.2"
+  },
+  "dependencies": {
+    "mkcert": "^3.2.0"
+  },
+  "bud": {
+    "version": ">=6.16.0"
+  }
+}
